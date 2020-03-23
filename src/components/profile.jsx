@@ -3,8 +3,7 @@ import React from "react";
 
 const Profile = () => {
   return  <div className='content'>
-        Main content
-        <img src='https://photar.ru/wp-content/uploads/2019/08/0-4.jpg'/>
+               <img src='https://photar.ru/wp-content/uploads/2019/08/0-4.jpg'/>
         <div className='Profile'>
             <div className='profilePhoto'><img src='https://bipbap.ru/wp-content/uploads/2017/10/3-6.png'/>
             </div>
