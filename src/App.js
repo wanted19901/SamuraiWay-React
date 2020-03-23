@@ -3,11 +3,31 @@ import './App.css';
 
 const App = () => {
     return (
-        <div className="App">
+        <div>
+             <Header />
+             <Tehnologies />
+        </div>
+    );
+}
+
+const Tehnologies = () => {
+  return(
+      <div >
+        <ul>
+          <li>HTML</li>
+          <li>react</li>
+          <li>css</li>
+        </ul>
+      </div>
+  )
+}
+const Header = () => {
+    return (
+        <div>
             <ul>
-                <li>HTML</li>
-                <li>react</li>
-                <li>css</li>
+                <a href={1}>Menu</a>
+                <a href={2}>Contact</a>
+                <a href={3}>Order</a>
             </ul>
         </div>
     );
