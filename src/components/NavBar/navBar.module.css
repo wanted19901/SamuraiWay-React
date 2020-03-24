@@ -1,0 +1,22 @@
+.nav {
+    text-align: center;
+    background-color: burlywood;
+    grid-area: nav;
+
+}
+.Navigate{
+
+    padding-left: 70px;
+    padding-top: 20px;
+    height: 200px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    text-align: left;
+}
+.item{
+    color: white;
+    text-decoration: none;
+
+}

@@ -1,13 +1,14 @@
 import React from "react";
-
+import p from './profile.module.css'
+import MyPosts from '../Profile/MyPosts/MyPosts'
 
 const Profile = () => {
-  return  <div className='content'>
-               <img src='https://photar.ru/wp-content/uploads/2019/08/0-4.jpg'/>
-        <div className='Profile'>
-            <div className='profilePhoto'><img src='https://bipbap.ru/wp-content/uploads/2017/10/3-6.png'/>
+    return <div className={p.content}>
+        <img src='https://photar.ru/wp-content/uploads/2019/08/0-4.jpg'/>
+        <div className={p.Profile}>
+            <div className={p.profilePhoto}><img src='https://bipbap.ru/wp-content/uploads/2017/10/3-6.png'/>
             </div>
-            <div className='ProfileInfo'>
+            <div className={p.ProfileInfo}>
                 <div className='Name'> Aleksey G.</div>
                 <div className='AboutMe'>
                     <ul>
@@ -22,9 +23,8 @@ const Profile = () => {
 
             </div>
         </div>
-        <div className='MyPost'> My post
-            <div className='NewPost'> New post</div>
-        </div>
+       <MyPosts/>
+
     </div>
 }
 export default Profile;
