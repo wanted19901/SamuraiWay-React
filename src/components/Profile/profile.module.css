@@ -1,8 +1,5 @@
-.content {
-    background: aqua;
-    grid-area: content;
-}
-.content img{
+
+.img{
     width: 100%;
 }
 .Profile{
@@ -17,7 +14,7 @@
     width: 70%;
 }
 .profilePhoto{
-
+    border-radius: 30px;
     width: 30%;
     float: left;
 

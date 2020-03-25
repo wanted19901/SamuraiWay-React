@@ -3,14 +3,14 @@ import p from './profile.module.css'
 import MyPosts from '../Profile/MyPosts/MyPosts'
 
 const Profile = () => {
-    return <div className={p.content}>
-        <img src='https://photar.ru/wp-content/uploads/2019/08/0-4.jpg'/>
+    return <div >
+        <img className={p.img} src='https://photar.ru/wp-content/uploads/2019/08/0-4.jpg'/>
         <div className={p.Profile}>
-            <div className={p.profilePhoto}><img src='https://bipbap.ru/wp-content/uploads/2017/10/3-6.png'/>
-            </div>
+            <img className={p.profilePhoto} src='https://bipbap.ru/wp-content/uploads/2017/10/3-6.png'/>
+           
             <div className={p.ProfileInfo}>
-                <div className='Name'> Aleksey G.</div>
-                <div className='AboutMe'>
+                <div className={p.Name}> Aleksey G.</div>
+                <div className={p.AboutMe}>
                     <ul>
                         <li>Date of birthday:</li>
                         <li> City:</li>
