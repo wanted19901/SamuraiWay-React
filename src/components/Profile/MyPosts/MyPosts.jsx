@@ -7,7 +7,7 @@ const MyPosts = () => {
     return <div className={s.MyPosts}>
         My posts
         <div>
-            <textarea>How are you ... </textarea>
+            <textarea> </textarea>
             <button>Add post</button>
             New post
         </div>
