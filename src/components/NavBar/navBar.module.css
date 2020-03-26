@@ -14,9 +14,21 @@
     grid-template-columns: 1fr;
     grid-gap: 10px;
     text-align: left;
+    
 }
-.item{
+.item a{
     color: white;
     text-decoration: none;
 
 }
+.item a:hover{
+    color: rgb(241, 136, 136);
+    text-decoration: none;
+
+}
+.item a.active{
+    color: rgb(241, 136, 136);
+    text-decoration: none;
+
+}
+
