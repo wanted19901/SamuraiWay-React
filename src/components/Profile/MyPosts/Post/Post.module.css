@@ -1,7 +1,10 @@
 .item {
-    color: red;
+    border: solid rgb(211, 181, 181) 2px;
+    color: rgb(69, 56, 104);
     text-align: left;
     padding-left: 100px;
+    padding: 10px;
+    max-width: 350px ;
 }
 .item img{
     width: 50px;
