@@ -5,12 +5,12 @@ import ProfileInfo from './ProfileInfo/ProfileInfo'
 
 const Profile = () => {
     return <div >
-        
-        
-           
-       <ProfileInfo />
-        
-       <MyPosts/>
+
+
+
+        <ProfileInfo />
+
+        <MyPosts />
 
     </div>
 }
