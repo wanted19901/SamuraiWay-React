@@ -4,6 +4,15 @@ import Post from "./Post/Post";
 
 
 const MyPosts = () => {
+
+    let postsData = [
+        {id : 1, message : 'Hi, how are you?', likeCounter : 20},
+        {id : 2, message : 'Lol, its work!', likeCounter : 2},
+        {id : 3, message : 'Lalalalalla omg ', likeCounter : 77},
+        {id : 4, message : 'Corona virus !!!11', likeCounter : 15},
+
+    ]
+
     return <div className={s.MyPosts}>
         My posts
         <div className={s.addPost}>
@@ -16,9 +25,10 @@ const MyPosts = () => {
            <h3> Last posts</h3>
         </div>
         <div className={s.posts}>
-            <Post message ='Hi, how are you?' like_counter='20' />
-            <Post message ='My first post' like_counter='13' />
-            <Post message='Wow, it work' like_counter='77'/>
+            <Post message ={postsData[0].message} like_counter={postsData[0].likeCounter} />
+            <Post message ={postsData[1].message} like_counter={postsData[1].likeCounter} />
+            <Post message ={postsData[2].message} like_counter={postsData[2].likeCounter} />
+            <Post message ={postsData[3].message} like_counter={postsData[3].likeCounter} />
             <Post/>
         </div>
     </div>
