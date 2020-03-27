@@ -1,0 +1,41 @@
+
+.img{
+    width: 100%;
+    border-radius: 6px;
+}
+.Profile{
+    
+    text-align: left;
+    width: 100%;
+    
+
+}
+.ProfileInfo{
+    padding: 30px;
+
+    float: left;
+    width: 100%;
+}
+.Notification{
+    padding-top: 10px;
+    padding-left: 50px;
+    float: left;
+}
+
+.profilePhoto{
+    
+    
+    border-radius: 50px;
+    width: 20%;
+    float: left;
+
+}
+.Name{
+    padding-left: 40px;
+    text-align: left;
+}
+
+.Profile ul li{
+    list-style: none;
+}
+
