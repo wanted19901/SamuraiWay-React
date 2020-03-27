@@ -1,8 +1,8 @@
 .Likes{
     
-    text-align: center;
-    color: green;
     float: right;
+    color: rgb(211, 222, 223);
+    text-align: right;
     margin-top: -20px;
-    
+    padding-right: 35px;
 }
