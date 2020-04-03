@@ -16,7 +16,7 @@
           {id : 2, name : 'Piter', secondName : 'Ivanov'},
           {id : 3, name : 'James', secondName : 'Sidorov'},
           {id : 4, name : 'Segey', secondName : 'Bond'},
-          {id : 5, name : 'Irina', secondName : 'Abdula'},
+          {id : 5, name : 'Irina', secondName : 'Kotova'},
           {id : 6, name : 'Rob',   secondName : 'Rashid'},
 
         ]

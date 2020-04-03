@@ -12,8 +12,7 @@ const Friends = (props) => {
             <NavLink to='/MyFriends' activeClassName={f.active}>    MyFriends </NavLink>    
              <div className={f.profilearea}>
                {profileElements}
-             
-                
+                             
              </div>   
   </div>
     

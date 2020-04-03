@@ -23,7 +23,7 @@ const NavBar = (props) => {
             </div>
              
         </div>
-                  <Friends  to='/MyFriends' state ={props.state.profile}/>
+                   <Friends  state ={props.state.profile}/>
     </nav>
 }
 export default NavBar;
